@@ -1,0 +1,16 @@
+✅ Example Run
+Input:
+
+arduino
+Copy
+Edit
+"breath, ending, sacred cycle, messenger, rebirth"
+Output:
+
+Copy
+Edit
+χωϖκβ
+Interpreted Chain:
+
+Breath → Ending → Sacred Cycle → Messenger → Rebirth
+(like the mythic path of death and return)

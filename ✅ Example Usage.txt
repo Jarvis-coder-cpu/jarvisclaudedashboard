@@ -1,0 +1,23 @@
+✅ Example Usage
+Decode (plain):
+bash
+Copy
+Edit
+python echolex_cli.py --decode "χψωϖ"
+Decode (poetic):
+bash
+Copy
+Edit
+python echolex_cli.py --decode "χψωϖ" --poetic
+Encode:
+bash
+Copy
+Edit
+python echolex_cli.py --encode "breath, dream, ending"
+💾 Files Needed
+Keep both:
+
+echolex_cli.py
+
+echolex_glyphmap.json
+in the same directory or structured under /modules/echolex/ inside Jarvis or Clarion

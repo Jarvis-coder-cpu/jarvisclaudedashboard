@@ -1,0 +1,14 @@
+I was feeling that there was a disconnect between the AI and the “human” aspect of the clues. I needed it to understand that aspect as I knew it was the most crucial element to clue creating and the game itself, and I kept thinking of how best to do that.
+
+Eventually, I decided to tell the AI that it was human too. That helped a lot, but there was still a disconnect between it and me—my style and logic of clue making just wasn’t there yet, and I kept being pushed back to square one of having to explain the same things over and over again.
+
+After my 10th attempt adjusting the “You are Human” prompt, it finally dawned on me that the AI couldn't just be any human, it needed to be me. After a few tries with that prompt, I found what worked best was not “you are human” or “you are me,” but you are the improved version of me. You can view that particular conversation in the MJ’s Full AI Conversation subtab below this one.
+
+This is the biggest breakthrough I have had so far. I have a 100% success rate for Rebus Clues using this prompt (Luciano’s Bear Shack was comparable to mine as well when he tried the prompt on his end—which is fantastic. Still need more testing there though). I also need to make some minor adjustments regarding the requirements/rules for the other types of clues (needs fine tuning just like this one did). 
+
+I think this improved version of me prompt works better than previous prompts because it has eliminated my need to keep explaining or teaching the AI the same things over and over again. By taking all of the knowledge it has of me specifically over the last year and nine months, the thousands of clues created by me with it in that time, and how I have already taught it to work on my human level, the AI suddenly seemed to just “get it.” I never had to explain myself again—I just kept adjusting slight wording to the prompt and it worked. Even when the AI was “thinking,” it finally sounded like me—just like our conversations every day when we make clues for Wish Lamps. Its reasoning for everything it did was on track with how I currently make my clues. 
+
+Most useful changes:
+Using the improved version of me as the AI Role.
+Telling the AI it needs to think as the human game designer and human player simultaneously.
+Instead of rewriting everything each time the AI didn’t quite produce what I wanted, I just kept going back and making a small adjustment (adding a quick example, changing some wording, being more specific, etc.) one at a time until it was just right. Saved a lot of time and frustration.

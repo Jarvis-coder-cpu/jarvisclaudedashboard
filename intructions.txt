@@ -1,0 +1,45 @@
+
+🪟 For Windows PowerShell
+🧾 Add this to your PowerShell profile:
+Open your PowerShell profile:
+
+powershell
+Copy
+Edit
+notepad $PROFILE
+Add this alias:
+
+powershell
+Copy
+Edit
+function echolex {
+    python "D:\Jarvis Home Core\modules\echolex\echolex_cli.py" @args
+}
+✅ Replace the path if you've stored echolex_cli.py elsewhere.
+
+✅ Example Usage in Terminal
+powershell
+Copy
+Edit
+echolex --decode "χψωϖ"
+echolex --decode "χψωϖ" --poetic
+echolex --encode "breath, dream, ending"
+🐧 For Bash (Linux/macOS or Git Bash)
+Open your .bashrc or .zshrc:
+
+bash
+Copy
+Edit
+nano ~/.bashrc  # or ~/.zshrc
+Add this alias:
+
+bash
+Copy
+Edit
+alias echolex='python "/mnt/d/Jarvis Home Core/modules/echolex/echolex_cli.py"'
+Reload shell:
+
+bash
+Copy
+Edit
+source ~/.bashrc

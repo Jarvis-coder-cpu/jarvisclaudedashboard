@@ -1,0 +1,10 @@
+D:\Jarvis Home Core\
+│
+├── command_server.py
+├── gpt_agent.py
+├── .env
+├── /dashboard/
+│   ├── App.jsx
+│   ├── index.js
+│   ├── index.html
+│   └── package.json (to be created now)
