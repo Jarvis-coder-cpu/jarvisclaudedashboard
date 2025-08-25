@@ -6,6 +6,13 @@ npm-debug.log*
 app-bundle.js
 app-bundle.js.LICENSE.txt
 
+# Jarvis secure cache directory
+jarvis-secure-cache/
+
+# Jarvis memory and logs (contains sensitive data)
+jarvis_memory.json
+jarvis_mission_log.jsonl
+
 # Environment files
 .env
 .env.local

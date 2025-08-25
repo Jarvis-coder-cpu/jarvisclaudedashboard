@@ -29,11 +29,19 @@ function App() {
       setOutput('Error: Could not reach Jarvis core.');
     }
 
-    setStatus(getStatusReport());
+    updateStatus();
+  };
+
+  const updateStatus = async () => {
+    const statusData = await getStatusReport();
+    setStatus(statusData);
   };
 
   useEffect(() => {
-    setStatus(getStatusReport());
+    updateStatus();
+    // Update status every 10 seconds
+    const statusInterval = setInterval(updateStatus, 10000);
+    return () => clearInterval(statusInterval);
   }, []);
 
   return (
