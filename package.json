@@ -9,7 +9,7 @@
     "build-and-start": "npm run build && npm start"
   },
   "dependencies": {
-    "electron": "^27.1.0",
+    "electron": "^28.3.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
