@@ -12,6 +12,12 @@ jarvis-secure-cache/
 # Jarvis memory and logs (contains sensitive data)
 jarvis_memory.json
 jarvis_mission_log.jsonl
+memory/
+
+# Exclude archive directories and sensitive subprojects
+!worksDeepInject-Fixed-20250825T211300Z-1-001/
+1memorysystem/
+9corevaluesembedor/
 
 # Environment files
 .env
@@ -43,3 +49,19 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Archive files and compressed data
+*.zip
+*.tar.gz
+*.rar
+
+# Python cache and build
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# API keys and sensitive configuration
+*.key
+*.pem
+config_secrets.json
